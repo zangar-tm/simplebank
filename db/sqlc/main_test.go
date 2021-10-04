@@ -15,7 +15,7 @@ const (
 )
 var testQueries *Queries
 
-func TestMain(t *testing.M) {
+func TestMain(m *testing.M) {
 	conn, err := sql.Open(dbDriver,dbSource)
 	if err != nil {
 		log.Fatal("can't connect to db:",err)
