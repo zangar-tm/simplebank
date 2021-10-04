@@ -1,3 +1,5 @@
-module github.com/zangar-tm/simple_bank
+module github.com/zangar-tm/simplebank
 
 go 1.16
+
+require github.com/lib/pq v1.10.3
